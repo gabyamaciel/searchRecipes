@@ -1,0 +1,34 @@
+@import './shared/styles/styles.scss';
+
+
+main{
+  background-color:$med-pink;
+  min-height:350px;
+}
+
+header {
+  padding: 15px;
+  border-bottom:1px solid $light-pink;
+  @include circle-gradient(top, $light-pink 0%,$med-pink 90%);
+
+
+  .fa-utensils {
+    color:$text-color;
+    font-size: 2rem;
+  }
+  
+  .title {
+    color: $text-color;
+    font-family: Lobster, cursive, Arial, sans-serif;
+    font-size: 3rem;
+  }
+
+}
+
+footer{
+  font-family:'Source Sans Pro', sans-serif;
+  @include circle-gradient(bottom, $light-pink 0%,$med-pink 90%);
+  border-top:1px solid $light-pink;
+  padding:1rem 0;
+  p{font-size:.90rem;color:$text-color}
+}

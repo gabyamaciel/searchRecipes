@@ -1,0 +1,41 @@
+@import '../../shared/styles/styles.scss';
+
+
+#recipes-component {
+
+  color:$text-color;
+
+  .sorry{
+    font-family:'Source Sans Pro', sans-serif;
+  }
+
+  .calories{
+    font-family:'Source Sans Pro', sans-serif;
+    font-size:1rem;
+  }
+
+  .fa-search{
+    float:left;
+    font-size:2rem;
+  }
+
+  .media {
+    h3,h4,h5{
+      font-family:'Source Sans Pro', sans-serif;    
+    }
+
+    margin:1rem 0;
+    img{width:150px;border-radius:4px;}
+    padding:1rem 1.5rem;
+    border-radius:4px;
+    background-color:$dark-pink;
+    font-weight:bold;
+
+    ul.health-labels{    
+      font-family:'Archivo Black', sans-serif;
+      list-style-type: none;
+      font-size:12px;
+    }
+
+  }
+}

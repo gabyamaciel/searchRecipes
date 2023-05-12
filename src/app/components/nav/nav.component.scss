@@ -1,0 +1,18 @@
+@import '../../shared/styles/styles.scss';
+
+nav{
+  background-color:$med-pink!important;
+  padding-top:1.5rem;
+}
+
+.nav-item{
+  font-family:'Lobster', sans-serif;
+  font-size:.90rem;
+  color:white!important;
+  &:hover{
+    background-color:#333;
+  }  
+  background-color:black;
+  margin-right:1rem;
+  border-radius:1rem;
+}

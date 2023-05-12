@@ -1,0 +1,51 @@
+$grey: #595959;
+$text-color:#331000;
+$light-pink:#ffb3b3;
+$med-pink:#ff9999;
+$dark-pink:#ff8080;
+
+
+.page-hdr{
+  margin-left:1rem;
+  font-family:Lobster,cursive;
+  color:$text-color;
+}
+
+button.recipe-btn{
+  color:white;
+  background:black;
+  font-family:'Archivo Black', sans-serif;  
+  font-weight:500;
+  border-radius:0;
+  &:hover{
+    background-color:#333;
+  }
+}
+
+@mixin circle-gradient($position,$hue1,$hue2){
+  background:$hue1;
+  background-image: -webkit-radial-gradient(
+    $position,
+    circle cover,
+    $hue1,
+    $hue2
+  );
+  background-image: -moz-radial-gradient(
+    $position,
+    circle cover,
+    $hue1,
+    $hue2
+  );
+  background-image: -o-radial-gradient(
+    $position,
+    circle cover,
+    $hue1,
+    $hue2
+  );
+  background-image: radial-gradient(
+    $position,
+    circle cover,
+    $hue1,
+    $hue2    
+  );
+}

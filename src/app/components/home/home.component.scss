@@ -1,0 +1,23 @@
+@import '../../shared/styles/styles';
+
+.card {
+  background: $dark-pink;
+  border:none;
+
+  a {
+    font-size: 2rem;
+    color: $text-color;
+    font-family: Lobster, cursive;
+    font-weight: 300;
+  }
+  
+  .fa-cow,
+  .fa-pig,
+  .fa-drumstick-bite,
+  .fa-carrot {
+    color: $text-color;
+    font-size: 5em;
+    display: block;
+  }
+
+}
